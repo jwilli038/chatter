@@ -22,7 +22,7 @@ print("Dropping NaN")
 #initialze lemmatizer
 lemmatizer = WordNetLemmatizer()
 
-# text_normalization
+# text_normalization 1
 def text_normalize(text):
     lema_sent = []
     try:
